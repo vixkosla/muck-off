@@ -88,7 +88,7 @@ loader.load('./models/lpo.glb', function (gltf) {
 
 	model.traverse(function (obj) {
 		if (obj.isMesh) {
-			obj.material.wireframe = true
+			// obj.material.wireframe = true
 			// obj.material.vertexcolors = true
 			// obj.alphahash = true
 			// obj.castShadows = true
